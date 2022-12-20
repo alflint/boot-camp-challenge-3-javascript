@@ -32,7 +32,6 @@ function generatePassword() {
   }
   //return a scrambled version of the password
   return password.split('').sort(function(){return 0.5-Math.random()}).join('');
-  // return password
 }
 
 // Write password function
