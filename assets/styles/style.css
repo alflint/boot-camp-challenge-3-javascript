@@ -118,6 +118,15 @@ button[disabled] {
   overflow: hidden;
 }
 
+#prompts {
+  display:none;
+}
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
